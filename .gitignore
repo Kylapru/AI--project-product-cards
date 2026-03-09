@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# AI Models weights (веса нейросетей)
+*.pth
+*.h5
+*.bin
+*.model
+*.weights
+models_weights/
+
+# Datasets (датасеты)
+data/*.csv
+data/*.json
+!data/example.json
